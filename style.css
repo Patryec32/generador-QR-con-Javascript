@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+.container{
+	max-width: 90%;
+	width: 300px;
+	margin: 80px auto;
+}
+.form input[type='text'] {
+	padding: 20px;
+	background: #fff;
+	width: 100%;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+.form .btn{
+	background: #26a641;
+	width: 100%;
+	border: none;
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 5px;
+	color: #fff;
+}
+.form .btn:hover{background: #39d353;color: #000}
+.qrcode{
+	display: flex;
+	justify-content: center;
+	padding: 40px 0;
+}
